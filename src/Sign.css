@@ -1,0 +1,92 @@
+/* Place your CSS styles here */
+/* Resetting default margin and padding */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.bb {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.container h3 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-group input[type="file"] {
+    padding: 7px 0;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #007bff;
+}
+
+.btn_s {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn_s:hover {
+    background-color: #0056b3;
+}
+
+.footer_s {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer_s a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer_s a:hover {
+    text-decoration: underline;
+}

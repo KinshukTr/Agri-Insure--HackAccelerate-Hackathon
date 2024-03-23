@@ -1,0 +1,81 @@
+/* Place your CSS styles here */
+/* Resetting default margin and padding */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.dd {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container1 {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container1 h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group1 {
+    margin-bottom: 20px;
+}
+
+.form-group1 label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group1 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-group1 input:focus {
+    border-color: #007bff;
+}
+
+.btn_l {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn_l:hover {
+    background-color: #0056b3;
+}
+
+.footer_l {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer_l a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer_l a:hover {
+    text-decoration: underline;
+}
